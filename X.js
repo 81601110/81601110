@@ -14,7 +14,7 @@ TG频道群：不用添加
 
 [rewrite_local]
 
-^http[s]?:\/\/.+((xo2xo)|(hnyiya)).(live|com)\/api\/(Account\/IndexDetail|movie\/DetailInfo|movie\/watch).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xboy.js
+^http[s]?:\/\/.+((xo2xo)|(hnyiya)).(live|com)\/api\/(Account\/IndexDetail|movie\/DetailInfo|movie\/watch).*$ url script-response-body https://raw.githubusercontent.com/81601110/81601110/main/X.js
 ^http[s]?:\/\/.+live\/api\/movie\/colllist\/1\/10 url 302 https://m.xo2xo.live/api/movie/colllist/1/5000
 
 [mitm]
